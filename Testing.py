@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Initialize ChromeDriver service
-service = Service("C:/driver/chromedriver-win64/chromedriver-win64/chromedriver.exe")
+service = Service("C:/driver/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 # Open login page
@@ -31,7 +31,7 @@ actual_title = driver.title
 expected_title = "DOST PPM"
 if expected_title not in actual_title:
     raise AssertionError("Login Test Failed")
-print("Login Successfully")
+print("Login is Successfully")
 
 try:
     input("Press Enter to close the browser...")
