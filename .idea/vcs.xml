@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/clone/driver" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/try lang" vcs="Git" />
   </component>
 </project>
